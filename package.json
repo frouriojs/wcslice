@@ -13,6 +13,11 @@
     "wcwidth",
     "wcswidth"
   ],
+  "homepage": "https://github.com/luma-dev/wcslice#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luma-dev/wcslice"
+  },
   "license": "MIT",
   "author": "Luma <world@luma.email>",
   "main": "build/index.js",
