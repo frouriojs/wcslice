@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@1.7.0/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "frouriojs/notios" }],
+  "changelog": ["@changesets/changelog-github", { "repo": "luma-dev/wcslice" }],
   "commit": true,
   "fixed": [],
   "linked": [],
