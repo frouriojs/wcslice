@@ -1,7 +1,7 @@
 # wcslice
 
 [![Luma Style Guide](https://img.shields.io/badge/styled%20with-luma-%23c5ebeb?style=flat-square)](https://github.com/luma-dev/luma-style-guide#readme)
-[![](https://img.shields.io/codecov/c/github/LumaKernel/wcslice?style=flat-square)](https://codecov.io/gh/LumaKernel/wcslice)
+[![](https://img.shields.io/codecov/c/github/luma-dev/wcslice?style=flat-square)](https://codecov.io/gh/luma-dev/wcslice)
 
 String `slice` for wide character sensitive.
 
