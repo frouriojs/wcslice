@@ -34,6 +34,8 @@
     "wcwidth": "*"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.3",
+    "@changesets/cli": "^2.21.1",
     "@luma-dev/eslint-config-base": "0.12.0",
     "@luma-dev/prettier-config": "0.1.0",
     "@types/wcwidth": "^1.0.0",
