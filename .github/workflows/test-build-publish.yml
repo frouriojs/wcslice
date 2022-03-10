@@ -57,6 +57,8 @@ jobs:
       - name: Run tests
         run: pnpm test
       - uses: codecov/codecov-action@v2
+        with:
+          files: ./coverage/lcov.info
       - if: ${{ github.event_name == 'push' && github.event.ref == 'refs/heads/main' }}
         name: Configure npm token
         run: pnpm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
