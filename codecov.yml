@@ -4,9 +4,10 @@ codecov:
 coverage:
   precision: 2
   round: down
-  project:
-    default:
-      target: 0%
+  status:
+    project:
+      default:
+        target: 0%
 
 comment:
   layout: "reach,diff,flags,files,footer"
