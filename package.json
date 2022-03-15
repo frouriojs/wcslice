@@ -13,13 +13,7 @@
     "wcwidth",
     "wcswidth"
   ],
-  "homepage": "https://github.com/luma-dev/wcslice#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/luma-dev/wcslice"
-  },
   "license": "MIT",
-  "author": "Luma <world@luma.email>",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.build.json",
@@ -44,12 +38,10 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.3",
     "@changesets/cli": "^2.21.1",
-    "@luma-dev/eslint-config-base": "0.13.0",
-    "@luma-dev/prettier-config": "0.1.0",
     "@types/wcwidth": "^1.0.0",
     "c8": "^7.11.0",
     "eslint": "^8.10.0",
-    "notios": "^0.0.2",
+    "notios": "^0.0.4",
     "prettier": "^2.5.1",
     "prettier-plugin-organize-imports": "^2.3.4",
     "typescript": "^4.6.2",
