@@ -50,10 +50,6 @@ jobs:
               args: [--frozen-lockfile, --prefer-offline]
       - name: Run check
         run: pnpm check
-      - name: Lint
-        run: pnpm lint
-      - name: Build
-        run: pnpm build
       - name: Run tests
         run: pnpm test
       - uses: codecov/codecov-action@v2
