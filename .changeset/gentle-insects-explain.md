@@ -1,5 +1,0 @@
----
-"wcslice": patch
----
-
-update rule
