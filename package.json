@@ -26,9 +26,6 @@
     "check:test": "cd test && tsc --noEmit",
     "coverage-to-html": "vitest run --coverage",
     "dev": "run-p test-dev build-dev",
-    "lint": "eslint \"**/*.{js,cjs,mjs,ts,tsx,json}\"",
-    "lint-fix": "pnpm run lint -- --fix",
-    "lint-quiet": "pnpm run lint -- --quiet",
     "test": "vitest run --coverage",
     "test-dev": "vitest dev"
   },
@@ -40,7 +37,6 @@
     "@changesets/cli": "^2.21.1",
     "@types/wcwidth": "^1.0.0",
     "c8": "^7.11.0",
-    "eslint": "^8.10.0",
     "notios": "^0.0.4",
     "prettier": "^2.5.1",
     "prettier-plugin-organize-imports": "^2.3.4",
