@@ -1,9 +1,0 @@
-.DS_Store
-.vscode/
-.idea/
-node_modules/
-*.local
-build/
-coverage/
-.pnpm-debug.log*
-*.tsbuildinfo
