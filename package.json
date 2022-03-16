@@ -15,20 +15,6 @@
   ],
   "license": "MIT",
   "main": "build/index.js",
-  "scripts": {
-    "build": "tsc -p ./tsconfig.build.json",
-    "build-dev": "tsc -p ./tsconfig.build.json --watch",
-    "check": "run-s check:*",
-    "check-dev": "run-p check-dev:*",
-    "check-dev:root": "pnpm run check:root -- --watch",
-    "check-dev:test": "pnpm run check:test -- --watch",
-    "check:root": "tsc --noEmit",
-    "check:test": "cd test && tsc --noEmit",
-    "coverage-to-html": "vitest run --coverage",
-    "dev": "run-p test-dev build-dev",
-    "test": "vitest run --coverage",
-    "test-dev": "vitest dev"
-  },
   "dependencies": {
     "wcwidth": "*"
   },
